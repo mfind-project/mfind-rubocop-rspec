@@ -1,5 +1,8 @@
 # mfind-rubocop-rspec
 
+[![Gem Version][gem-version-img]][gem-version]
+[![Build Status][build-status-img]][build-status]
+
 RuboCop rules for mfind projects that use RSpec. Includes:
 
 - [`rubocop`](rubocop)
@@ -83,3 +86,7 @@ The `gem push` script is set up on CircleCI upon `git hf release finish`, as per
 [rubocop-rspec-defaults]: https://github.com/rubocop-hq/rubocop-rspec/blob/master/config/default.yml
 [rspec-styleguide]: https://rspec.rubystyle.guide/
 [rubocop-performance-defaults]: https://github.com/rubocop-hq/rubocop-performance/blob/master/config/default.yml
+[gem-version]: https://rubygems.org/gems/mfind-rubocop-rspec
+[build-status]: https://circleci.com/gh/mfind-project/mfind-rubocop-rspec/tree/master
+[gem-version-img]: https://badge.fury.io/rb/mfind-rubocop-rspec.svg
+[build-status-img]: https://circleci.com/gh/mfind-project/mfind-rubocop-rspec/tree/master.svg?style=shield
