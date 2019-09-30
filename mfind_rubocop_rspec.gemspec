@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.date          = '2019-07-13'
   spec.summary       = 'mFind rubocop configuration for Ruby apps using RSpec'
   spec.homepage      = 'https://github.com/mfind-project/mfind-rubocop-rspec'
-  spec.files         = ['lib/mfind_rubocop_rspec.rb']
+  spec.files         = ['lib/mfind_rubocop_rspec.rb', 'default.yml', '.rubocop.yml']
   spec.require_paths = ['lib']
   spec.add_dependency 'rubocop', '~> 0.74.0'
   spec.add_dependency 'rubocop-performance', '~> 1.4.1'
