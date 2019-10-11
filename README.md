@@ -5,11 +5,11 @@
 
 RuboCop rules for mfind projects that use RSpec. Includes:
 
-- [`rubocop`](rubocop)
-- [`rubocop-performance`](rubocop-performance)
-- [`rubocop-rspec`](rubocop-rspec)
+- [`rubocop`][rubocop]
+- [`rubocop-performance`][rubocop-performance]
+- [`rubocop-rspec`][rubocop-rspec]
 
-If you create Ruby on Rails project, **use gem [`mfind-rubocop-rspec-rails`](mfind-rubocop-rspec-rails) instead.**
+If you create Ruby on Rails project, **use gem [`mfind-rubocop-rspec-rails`][mfind-rubocop-rspec-rails] instead.**
 
 ## Installation
 
@@ -54,25 +54,25 @@ $ bundle exec rubocop
 
 ## Configuration
 
-All configuration goes to [default.yml](config) file.
+All configuration goes to [default.yml][config] file.
 
-- [`rubocop` defaults](rubocop-defaults) & [Ruby styleguide](ruby-styleguide)
-- [`rubocop-rspec` defaults](rubocop-rspec-defaults) & [RSpec styleguide](rspec-styleguide)
-- [`rubocop-performance` defaults](rubocop-performance-defaults)
+- [`rubocop` defaults][rubocop-defaults] & [Ruby styleguide][ruby-styleguide]
+- [`rubocop-rspec` defaults][rubocop-rspec-defaults] & [RSpec styleguide][rspec-styleguide]
+- [`rubocop-performance` defaults][rubocop-performance-defaults]
 
 ## Publish to Rubygems
 
 In order to publish new version of the gem follow the steps:
 
 1. `git hf release start X.Y.Z`
-2. bump up version in [`MfindRuboCopRSpec::VERSION`](gem-version-path)
+2. bump up version in [`MfindRuboCopRSpec::VERSION`][gem-version-path]
 3. `git commit -am 'UPD version to X.Y.Z'`
 4. `git hf release finish X.Y.Z`
 5. `bundle update mfind-rubocop-rspec` in projects that use it
-6. update `mfind-rubocop-rails` gem in [`mfind-rubocop-rspec-rails`](mfind-rubocop-rspec-rails) gem
+6. update `mfind-rubocop-rails` gem in [`mfind-rubocop-rspec-rails`][mfind-rubocop-rspec-rails] gem
 
 The `gem push` script is set up on CircleCI upon `git hf release finish`, as per
-[Publishing RubyGems using Circle CI 2.0 article](publishing-rubygems-using-circleci).
+[Publishing RubyGems using Circle CI 2.0 article][publishing-rubygems-using-circleci].
 
 [rubocop]: https://github.com/rubocop-hq/rubocop
 [rubocop-performance]: https://github.com/rubocop-hq/rubocop-performance

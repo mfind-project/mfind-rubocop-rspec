@@ -13,7 +13,7 @@ AllCops:
     - log/**/*
     - logs/**/*
 
-Documentation:
+Style/Documentation:
   Enabled: false
 
 Style/BracesAroundHashParameters:
