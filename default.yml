@@ -13,13 +13,7 @@ AllCops:
     - log/**/*
     - logs/**/*
 
-Style/Documentation:
-  Enabled: false
-
-Style/BracesAroundHashParameters:
-  EnforcedStyle: context_dependent
-
-Metrics/LineLength:
+Layout/LineLength:
   Max: 120
 
 Metrics/ModuleLength:
@@ -29,6 +23,18 @@ Metrics/ModuleLength:
 Metrics/BlockLength:
   Exclude:
     - "**/*_spec.rb"
+
+Style/Documentation:
+  Enabled: false
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
 
 RSpec/ContextWording:
   Enabled: false
