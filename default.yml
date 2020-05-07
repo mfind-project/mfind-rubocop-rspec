@@ -1,4 +1,4 @@
-require: 
+require:
   - rubocop-performance
   - rubocop-rspec
 
@@ -23,7 +23,7 @@ Metrics/BlockLength:
   Max: 25
   Exclude:
     - "**/*_spec.rb"
-  
+
 Metrics/BlockNesting:
   Max: 3
   Exclude:
@@ -65,4 +65,7 @@ RSpec/ContextWording:
   Enabled: false
 
 RSpec/NestedGroups:
+  Enabled: false
+
+RSpec/MultipleExpectations:
   Enabled: false
